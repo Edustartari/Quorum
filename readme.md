@@ -5,7 +5,7 @@ This application is a search Tool used to find Legislators and Bills detalied in
 
 * Clone the repository
 ```bash
-git clone https://github.com/Magroove/magrooveBackendApp.git
+git clone [https://github.com/Magroove/magrooveBackendApp.git](https://github.com/Edustartari/Quorum.git)
 ```
 
 * Create a Virtual environment inside the parent application folder and activate it
