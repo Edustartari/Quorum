@@ -1,0 +1,56 @@
+.App {
+    margin: 30px;
+}
+.App-title{
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.App-search{
+    display: flex;
+}
+.App-search-box {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.App-search-input-text{
+    width: 250px;
+}
+.App-search-input-arrow {
+    margin: 0 0 0 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.App-search-all-button {
+    margin: 0 0 0 50px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.App-search-all-button:hover {
+    background-color: #f0f0f0;
+}
+.App-subtitle {
+    margin: 10px 0;
+    font-size: 16px;
+}
+.App-search-list {
+    background-color: white;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+.App-search-list-item {
+    padding: 3px 8px 3px 5px;
+    border-bottom: 1px solid #dbdbdb;
+}
+.App-search-list-item:hover {
+    cursor: pointer;
+    background-color: #b1b1b1;
+}
+.App-search-input-container {
+    display: flex;
+    align-items: center;
+}

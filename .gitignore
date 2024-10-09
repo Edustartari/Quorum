@@ -1,0 +1,11 @@
+env
+env/
+env/*
+
+.npm
+.npm/
+.npm/*
+
+node_modules
+node_modules/
+node_modules/*

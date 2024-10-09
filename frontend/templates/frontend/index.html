@@ -1,0 +1,19 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quorum</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'App.css' %}">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"rel="stylesheet">
+  </head>
+  <body>
+    <div id="root"></div>
+    <script>
+      const data = {{ content | safe }}
+      </script>
+      <script src="{% static 'js/main.js' %}"></script>
+  </body>
+</html>
